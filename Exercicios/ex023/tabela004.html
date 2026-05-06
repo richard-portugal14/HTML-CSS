@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coisas que amam</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+        }
+        
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        caption{
+            padding: 10px;
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Coisas que amam</h1>
+    <table>
+        <caption>Coisas que amam</caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">"Coisas"</th>
+            </tr> 
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>Yasmin</td>
+                <td>Rick</td>
+                <td>Chocolate</td>
+                <td>Hello Kitty</td>
+            </tr>
+            <tr>
+                <td>Janete</td>
+                <td>Serie / Filmes</td>
+                <td>Café</td>
+                <td>Familia</td>
+            </tr>
+            <tr>
+                <td>Jaque</td>
+                <td>Musica</td>
+                <td>Cerveja</td>
+                <td>Dormir</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td>Rick</td>
+                <td>Yasmin</td>
+                <td>Yasmin</td>
+                <td>Yasmin</td>
+            </tr>
+            <tr>
+                <td>Maike</td>
+                <td>Carol</td>
+                <td>Moto</td>
+                <td>Sinuca</td>
+            </tr>
+            <tr>
+                <td>Rick</td>
+                <td>Yasmin</td>
+                <td>Yasmin</td>
+                <td>Yasmin</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+    
+</body>
+</html>
