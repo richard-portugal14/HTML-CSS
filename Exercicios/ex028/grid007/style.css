@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+div.container{
+    display: grid;
+    grid-template-rows: repeat(4, 100px);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.caixa1{
+    background-color: rgba(238, 0, 0, 0.452);
+    
+    
+}
+
+.caixa2{
+    background-color: rgba(0, 0, 255, 0.329);
+    
+}
+
+.caixa3{
+    background-color: pink;
+    
+}
+
+.caixa4{
+
+}
+
+.caixa5{
+
+}
